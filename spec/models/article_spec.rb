@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Article do
   
   before(:each) do 
-    @article = Article.new(title: nil, content: nil)
+    @article = Article.create(title: nil, content: nil)
   end
   
   it "is valid with a title" do
